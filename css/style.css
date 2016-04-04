@@ -301,7 +301,9 @@ body {
 }
 
 @media (max-width: 1024px) {
-	background-image: none;
+	body {
+		background-image: none;
+	}
 }
 
 @media (max-width: 768px) {
